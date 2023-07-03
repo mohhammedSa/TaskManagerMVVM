@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="25dp">
+
+    <EditText
+        android:id="@+id/updateTaskEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:paddingVertical="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        android:hint="Enter a task:"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateTaskEt"
+        android:layout_centerHorizontal="true"
+        android:text="Update Task"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
